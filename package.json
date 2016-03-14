@@ -1,0 +1,24 @@
+{
+  "name": "gitup",
+  "version": "0.0.1",
+  "description": "Script to batch backup a number of git repositories",
+  "main": "gitup.js",
+  "dependencies": {
+    "async": "^1.5.2",
+    "fs-extra": "^0.26.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/taylortom/gitup.git"
+  },
+  "author": "Thomas Taylor <me@taylortom.co.uk> (http://taylortom.co.uk/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/taylortom/gitup/issues"
+  },
+  "homepage": "https://github.com/taylortom/gitup#readme"
+}
