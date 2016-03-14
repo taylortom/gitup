@@ -2,7 +2,9 @@
 
 Just loops through an array of repository names, and clones each one.
 
-### `data.json`
+### `data.json` structure
+
+Requires a `data.json` file in the plugin root. See below for an explanation of the options.
 ```
 {
   "repositories": [
@@ -13,4 +15,11 @@ Just loops through an array of repository names, and clones each one.
   "logging": // string, supports: none, error, std, debug
 }
 
+```
+
+### Usage
+
+This is just a simple node script, so to use, just run:
+```
+node gitup
 ```
